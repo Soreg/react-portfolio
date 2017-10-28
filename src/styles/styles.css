@@ -186,7 +186,7 @@ body {
     padding: 0;
     bottom: 0; }
   #portfolio .slideContainer {
-    height: 100%; }
+    padding-bottom: 20px; }
     #portfolio .slideContainer .imageBox {
       filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.4)); }
     #portfolio .slideContainer img {
@@ -228,7 +228,7 @@ body {
     font-weight: normal; }
   #contact .form-control, #contact .input {
     box-shadow: none;
-    transition: all ease .5s;
+    transition: all ease-in-out .5s;
     color: #ccc;
     font-size: 1.6rem;
     font-weight: bold; }
@@ -241,7 +241,10 @@ body {
   #contact form {
     margin-top: 30px; }
   #contact textarea {
-    resize: none; }
+    resize: none;
+    height: 100px; }
+  #contact textarea:focus {
+    height: 300px; }
   #contact h2 {
     margin: 0 auto 20px; }
   #contact h3 {

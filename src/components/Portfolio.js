@@ -43,7 +43,7 @@ export default class Portfolio extends Component {
                           }</h4>
                           <h5 dangerouslySetInnerHTML={{__html: project.description}} />
                         </div>
-                        <div className="col-md-2 col-md-push-5">
+                        <div className="col-md-4 col-md-push-4">
                           <a href={project.link} target="_blank" className="btn btn-lg btn-block primaryButton">To Project</a>
                         </div>
 

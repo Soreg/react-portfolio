@@ -24,14 +24,6 @@ class App extends Component {
           imageStyle: 'design1'
         },
         {
-          name: 'React Bulletin Board',
-          languages: ['React /', ' JSX /', ' CSS /', ' JSON'],
-          description: 'The Bulletin Board is my first and only completed project using React. The app allowed you to create / delete notes, aswell as edit them. The notes are placed randomly on the board, and are draggable.',
-          link: 'https://codepen.io/TudiKovin/full/XgJPaa/',
-          image: 'http://sgcoding.media/img/slider/BulletinBoard.png',
-          imageStyle: 'design2'
-        },
-        {
           name: 'Outdoor Haderslev',
           languages: ['HTML /', ' CSS /', ' PHP'],
           description: 'Outdoor Haderslev is a danish site, and was an assignment given to me at a local bootcamp. Outdoor Haderslev uses a free Wordpress theme, which has been customized with Html and Css.',
@@ -50,7 +42,7 @@ class App extends Component {
         {
           name: 'DevMOP Chrome Extension',
           languages: ['Html /', ' CSS /', ' Javascript /', ' jQuery /', ' Api /', ' JSON'],
-          description: 'DevMOP is a Chrome Extension aimed towards developers. The main goal is to keep developers focused and motivated by giving them a set of tools.<br /> DevMop was made in collaboration with <a href="https://github.com/fatizhf" target="_blank"><span className="text-shoutout">Fatima</span></a> and <a href="https://github.com/mussol" target="_blank"><span classname="text-shoutout">Mussol</span></a>',
+          description: 'DevMOP is a Chrome Extension aimed towards developers. The main goal is to keep developers focused and motivated by giving them a set of tools. DevMop was made in collaboration with <a href="https://github.com/fatizhf" target="_blank"><span className="text-shoutout">Fatima</span></a> and <a href="https://github.com/mussol" target="_blank"><span classname="text-shoutout">Mussol</span></a>',
           link: 'https://chrome.google.com/webstore/detail/devmop/nbnbhmpifhipmfckccbhelhmbkccejbc',
           image: 'http://sgcoding.media/img/slider/devMopScreen.png',
           imageStyle: 'design3'
