@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 
-import './styles/styles.scss';
+//import './styles/styles.scss';
 
 class App extends Component {
   render() {
