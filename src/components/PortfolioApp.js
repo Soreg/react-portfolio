@@ -1,16 +1,14 @@
-import React, { Component } from 'react';
-import './App.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-import Header from './components/Header';
-import Presentation from './components/Presentation';
-import Skills from './components/Skills';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Header from './Header';
+import Presentation from './Presentation';
+import Skills from './Skills';
+import Portfolio from './Portfolio';
+import Contact from './Contact';
+import Footer from './Footer';
 
-import './styles/styles.css';
-
-class App extends Component {
+export default class PortfolioApp extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -71,5 +69,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;

@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display+SC");
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+/*-----------------------------------------------------------*/
+html {
+  font-size: 62.5%; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background-image: url("./../img/bg.png");
+  font-family: sans-serif;
+  overflow-x: hidden;
+  font-size: 1.6rem; }
+  body section {
+    margin: 0;
+    position: relative; }
+  body .artlineBox {
+    position: absolute;
+    left: 0; }
+  body hr {
+    border-color: #000 !important;
+    opacity: .5;
+    margin: 60px auto 15px; }
+  body .artlineBox {
+    width: 100%; }
+  body .bottom {
+    margin-top: -10px; }
+  body .skew {
+    height: 130px;
+    width: 100%;
+    bottom: -60px;
+    position: absolute;
+    z-index: 2;
+    box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.4); }
+  body .artlineBox hr {
+    border: 4px double;
+    margin: 2px 0; }
+  body .text-shoutout {
+    color: #5375c6;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold; }
+  body .btn {
+    color: white;
+    padding: 5px; }
+  body .btn:hover {
+    color: #e6e6e6;
+    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.5); }
+  body .sendButton {
+    background: #3e8e3e; }
+  body .sendButton:hover {
+    background: #2f6b2f; }
+  body .primaryButton {
+    background: #428bca !important; }
+  body .primaryButton:hover {
+    background: #245682 !important; }
+  body p {
+    font-size: 1.6rem; }
+  body h1, body h2, body h3 {
+    font-family: Oswald, sans-serif; }
+  body h1 {
+    font-size: 4.5rem; }
+  body h2 {
+    font-size: 4rem; }
+  body h3 {
+    font-size: 2.5rem; }
+  body h4 {
+    font-size: 2.2rem; }
+  body h5 {
+    font-size: 1.8rem; }
+  body h6 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    color: black; }
+
+/*-----------------------------------------------------------*/
+#contact input:focus {
+  transform: scale(1.05); }
+
+#contact input:focus {
+  transform: scale(1.05); }
+
+.btn {
+  transition: all ease-in-out .5s; }
+
+/*-----------------------------------------------------------*/
+@media (max-width: 768px) {
+  .lightCircle {
+    display: none; }
+  .navbar-brand img {
+    margin-top: 7px;
+    max-height: 60px; }
+  .navbar-collapse {
+    margin-top: 55px; }
+  .navbar-collapse li {
+    text-align: center; } }
+
+.navbar-default {
+  min-height: 110px;
+  border: none;
+  border-radius: 0;
+  background: #50808e;
+  margin: 0;
+  position: relative; }
+
+.navbar-brand img {
+  max-height: 80px; }
+
+.socialLink img {
+  max-height: 70px;
+  opacity: .8; }
+
+.socialLink a {
+  cursor: default; }
+  .socialLink a i {
+    opacity: .8;
+    font-size: 7rem;
+    color: #e6e6e6;
+    transition: all ease-in-out .2s; }
+  .socialLink a i:hover {
+    opacity: 1;
+    cursor: pointer; }
+  .socialLink a .fa:hover {
+    color: white;
+    opacity: 1;
+    text-shadow: 2px 2px 4px black; }
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background: rgba(0, 0, 0, 0.5); }
+
+#intro {
+  background: #96bdc6;
+  position: relative;
+  box-shadow: inset 0px 53px 42px -50px rgba(0, 0, 0, 0.75);
+  padding-bottom: 50px; }
+  #intro .row {
+    margin-top: 10px; }
+  #intro .skew {
+    background: #96bdc6;
+    transform: skewY(1deg);
+    height: 40px;
+    bottom: -15px; }
+  #intro p {
+    margin-top: 25px; }
+
+#skills {
+  background: #b2aa8e;
+  padding-bottom: 35px;
+  pointer-events: none; }
+  #skills .row {
+    margin-top: 20px; }
+  #skills .col-md-3 {
+    margin-bottom: 30px; }
+  #skills .images {
+    margin-top: 20px; }
+    #skills .images img {
+      max-height: 150px;
+      max-width: 150px; }
+
+#portfolio {
+  padding-bottom: 30px;
+  height: 100%;
+  margin-bottom: 0px;
+  background: #bde4a7;
+  position: relative; }
+  #portfolio .row {
+    margin-top: 5px; }
+  #portfolio .skew.top {
+    top: -30px;
+    height: 40px;
+    background: #bde4a7;
+    transform: skewY(-0.5deg);
+    box-shadow: 0 -15px 20px 0 rgba(0, 0, 0, 0.4); }
+  #portfolio .skew.bottom {
+    height: 25px;
+    bottom: -12px;
+    background: #bde4a7;
+    transform: skewY(0.7deg); }
+  #portfolio .slick-dots, #portfolio .slick-next, #portfolio .slick-prev {
+    padding: 0;
+    bottom: 0; }
+  #portfolio .slideContainer {
+    height: 100%; }
+    #portfolio .slideContainer .imageBox {
+      filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.4)); }
+    #portfolio .slideContainer img {
+      max-width: 100%; }
+    #portfolio .slideContainer .design1 {
+      -webkit-clip-path: polygon(2% 0, 100% 0%, 98% 100%, 0% 100%);
+      clip-path: polygon(2% 0, 100% 0%, 98% 100%, 0% 100%); }
+    #portfolio .slideContainer .design2 {
+      -webkit-clip-path: polygon(0 0, 100% 0, 98% 100%, 3% 100%);
+      clip-path: polygon(0 0, 100% 0, 98% 100%, 3% 100%); }
+    #portfolio .slideContainer .design3 {
+      -webkit-clip-path: polygon(2% 0, 98% 0, 100% 100%, 0 100%);
+      clip-path: polygon(2% 0, 98% 0, 100% 100%, 0 100%); }
+    #portfolio .slideContainer .design4 {
+      -webkit-clip-path: polygon(0 0, 98% 0, 100% 100%, 2% 100%);
+      clip-path: polygon(0 0, 98% 0, 100% 100%, 2% 100%); }
+    #portfolio .slideContainer .information {
+      margin: 20px 0 10px 0; }
+    #portfolio .slideContainer .name {
+      font-weight: bold; }
+    #portfolio .slideContainer .languages {
+      font-style: italic; }
+  #portfolio h2 {
+    margin-bottom: 20px; }
+  #portfolio h4 {
+    margin-bottom: 10px; }
+  #portfolio a {
+    margin: 15px 0; }
+
+#contact {
+  padding-top: 0;
+  background: #82AEB1;
+  min-height: 300px; }
+  #contact .row {
+    margin-top: 30px; }
+  #contact .form-control, #contact textarea {
+    border: none;
+    background: rgba(1, 1, 1, 0.4);
+    font-weight: normal; }
+  #contact .form-control, #contact .input {
+    box-shadow: none;
+    transition: all ease .5s;
+    color: #ccc;
+    font-size: 1.6rem;
+    font-weight: bold; }
+  #contact .form-control:focus {
+    background: rgba(1, 1, 1, 0.5);
+    color: white;
+    font-weight: normal; }
+  #contact .btn {
+    margin: 20px 0 40px 0; }
+  #contact form {
+    margin-top: 30px; }
+  #contact textarea {
+    resize: none; }
+  #contact h2 {
+    margin: 0 auto 20px; }
+  #contact h3 {
+    text-shadow: none;
+    font-style: italic; }
+
+#footer {
+  height: 50px;
+  box-shadow: 0 -15px 20px 0 rgba(0, 0, 0, 0.4); }
+  #footer h6 {
+    line-height: 50px;
+    margin: 0; }
+  #footer .container-fluid {
+    background: #50808e; }

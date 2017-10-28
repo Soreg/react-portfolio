@@ -1,0 +1,18 @@
+#skills {
+  background: #b2aa8e;
+  padding-bottom: 35px;
+  pointer-events: none;
+  .row {
+    margin-top:20px;
+  }
+  .col-md-3 {
+    margin-bottom: 30px;
+  }
+  .images {
+    margin-top: 20px;
+    img {
+      max-height: 150px;
+      max-width: 150px;
+    }
+  }
+}

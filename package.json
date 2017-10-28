@@ -26,6 +26,7 @@
     "fs-extra": "3.0.1",
     "html-webpack-plugin": "2.29.0",
     "jest": "20.0.4",
+    "node-sass-chokidar": "0.0.3",
     "object-assign": "4.1.1",
     "postcss-flexbugs-fixes": "3.2.0",
     "postcss-loader": "2.0.6",
@@ -42,9 +43,11 @@
     "whatwg-fetch": "2.0.3"
   },
   "scripts": {
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
     "start": "node scripts/start.js",
-    "build": "webpack",
-    "build-cra": "node scripts/build.js",
+    "build-fa": "webpack",
+    "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom"
   },
   "devDependencies": {

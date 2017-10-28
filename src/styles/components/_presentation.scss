@@ -1,0 +1,18 @@
+#intro {
+  background: #96bdc6;
+  position: relative;
+  box-shadow: inset 0px 53px 42px -50px rgba(0,0,0,0.75);
+  padding-bottom: 50px;
+  .row {
+    margin-top: 10px;
+  }
+  .skew {
+    background: #96bdc6;
+    transform: skewY(1deg);
+    height: 40px;
+    bottom: -15px;
+  }
+  p {
+    margin-top: 25px;
+  }
+}

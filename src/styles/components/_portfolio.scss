@@ -1,0 +1,72 @@
+
+#portfolio {
+  padding-bottom: 30px;
+  height: 100%;
+  margin-bottom: 0px;
+  background: #bde4a7;
+  position: relative;
+  .row {
+    margin-top: 5px;
+  }
+  .skew.top  {
+    top: -30px;
+    height: 40px;
+    background: #bde4a7;
+    transform: skewY(-0.5deg);
+    box-shadow: 0 -15px 20px 0 rgba(0,0,0, 0.4);
+  }
+  .skew.bottom {
+    //border: 1px solid black;
+    height: 25px;
+    bottom: -12px;
+    background: #bde4a7;
+    transform: skewY(0.7deg);
+  }
+  .slick-dots, .slick-next, .slick-prev {
+    padding: 0;
+    bottom: 0;
+  }
+  .slideContainer {
+    height: 100%;
+    .imageBox {
+      filter: drop-shadow(10px 10px 5px rgba(0,0,0, 0.4));
+    }
+    img {
+      max-width: 100%;
+    }
+    .design1 {
+      -webkit-clip-path: polygon(2% 0, 100% 0%, 98% 100%, 0% 100%);
+      clip-path: polygon(2% 0, 100% 0%, 98% 100%, 0% 100%);
+    }
+    .design2 {
+      -webkit-clip-path: polygon(0 0, 100% 0, 98% 100%, 3% 100%);
+      clip-path: polygon(0 0, 100% 0, 98% 100%, 3% 100%);
+    }
+    .design3 {
+      -webkit-clip-path: polygon(2% 0, 98% 0, 100% 100%, 0 100%);
+      clip-path: polygon(2% 0, 98% 0, 100% 100%, 0 100%);
+    }
+    .design4 {
+      -webkit-clip-path: polygon(0 0, 98% 0, 100% 100%, 2% 100%);
+      clip-path: polygon(0 0, 98% 0, 100% 100%, 2% 100%);
+    }
+    .information {
+      margin: 20px 0 10px 0;
+    }
+    .name {
+      font-weight: bold;
+    }
+    .languages {
+      font-style: italic;
+    }
+  }
+  h2 {
+    margin-bottom: 20px;
+  }
+  h4 {
+    margin-bottom: 10px;
+  }
+  a {
+    margin: 15px 0;
+  }
+}

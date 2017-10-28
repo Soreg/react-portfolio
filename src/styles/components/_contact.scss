@@ -1,0 +1,42 @@
+#contact {
+  padding-top: 0;
+  background: #82AEB1;
+  min-height: 300px;
+  .row {
+    margin-top: 30px;
+  }
+  .form-control, textarea {
+      border: none;
+      background: rgba(1, 1, 1, .4);
+      font-weight: normal;
+  }
+  .form-control, .input {
+      box-shadow: none;
+      transition: all ease .5s;
+      color: #ccc;
+      font-size: 1.6rem;
+      font-weight: bold;
+  }
+  .form-control:focus {
+    background: rgba(1, 1, 1, .5);
+    color: white;
+    font-weight: normal;
+  }
+
+  .btn {
+    margin: 20px 0 40px 0;
+  }
+  form {
+      margin-top: 30px;
+  }
+  textarea {
+      resize: none;
+  }
+  h2 {
+      margin: 0 auto 20px;
+  }
+  h3 {
+      text-shadow: none;
+      font-style: italic;
+  }
+}

@@ -129,6 +129,17 @@ module.exports = {
         // match the requirements. When no loader matches it will fall
         // back to the "file" loader at the end of the loader list.
         oneOf: [
+          {
+            test: /\.(png|jpg|gif)$/,
+            use: [
+              {
+                loader: 'url-loader',
+                options: {
+                  limit: 8192
+                }
+              }
+            ]
+          },
           // "url" loader works like "file" loader except that it embeds assets
           // smaller than specified limit in bytes as data URLs to avoid requests.
           // A missing `test` is equivalent to a match.
@@ -210,11 +221,6 @@ module.exports = {
       },
       // ** STOP ** Are you adding a new loader?
       // Make sure to add the new loader(s) before the "file" loader.
-      {
-        test: /\.scss$/,
-        include: paths.appSrc,
-        loaders: ["style", "css", "sass"]
-      },
     ],
   },
   plugins: [

@@ -1,0 +1,39 @@
+.navbar-default {
+    min-height: 110px;
+    border: none;
+    border-radius: 0;
+    background: #50808e;
+    margin: 0;
+    position: relative;
+}
+
+.navbar-brand img {
+    max-height: 80px;
+}
+
+.socialLink img {
+    max-height: 70px;
+    opacity: .8;
+}
+.socialLink a {
+  cursor: default;
+  i {
+    opacity: .8;
+    font-size: 7rem;
+    color: #e6e6e6;
+    transition: all ease-in-out .2s;
+  }
+  i:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+  .fa:hover {
+    color: white;
+    opacity: 1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);  }
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background: rgba(0, 0, 0, .5);
+}

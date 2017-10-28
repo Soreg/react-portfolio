@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+$bg-img: url('./../img/bg.png');
+$transparent-background: rgba(0,0,0,0.2);
+$primary-button: #428bca;
+$send-button: #3e8e3e;
+$main-color: black;
+$header-font: Oswald, sans-serif;
+
+/*-----------------------------------------------------------*/
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0
+}
+
+body {
+    background-image: $bg-img;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    font-size: 1.6rem;
+    section {
+        margin: 0;
+        position: relative;
+    }
+    .artlineBox {
+        position: absolute;
+        left: 0;
+    }
+    hr {
+        border-color: #000!important;
+        opacity: .5;
+        margin: 60px auto 15px
+    }
+    .artlineBox {
+        width: 100%;
+    }
+    .bottom {
+      margin-top: -10px;
+    }
+    .skew {
+      height: 130px;
+      width: 100%;
+      bottom:-60px;
+      position: absolute;
+      z-index: 2;
+      box-shadow: 0 15px 20px 0 rgba(0,0,0, 0.4);
+    }
+
+    .artlineBox hr {
+        border: 4px double;
+        margin: 2px 0
+    }
+    .text-shoutout {
+    color: #5375c6;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+    }
+    .btn {
+      color: white;
+      padding: 5px;
+    }
+    .btn:hover {
+      color: darken(white, 10%);
+      box-shadow: 3px 3px 5px 0 rgba(0,0,0, 0.5);
+    }
+    .sendButton {
+      background: $send-button;
+    }
+    .sendButton:hover {
+      background: darken($send-button, 10%);
+    }
+    .primaryButton {
+      background: $primary-button !important;
+      //padding: 5px;
+    }
+    .primaryButton:hover {
+      background: darken($primary-button, 20%) !important;
+    }
+
+    p {
+      font-size: 1.6rem;
+    }
+
+    h1, h2, h3 {
+      font-family: $header-font;
+    }
+
+    h1 {
+        font-size: 4.5rem;
+    }
+
+    h2 {
+      font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    h4 {
+      font-size: 2.2rem;
+    }
+
+    h5 {
+      font-size: 1.8rem;
+    }
+    h6 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      font-style: italic;
+      color: black;
+    }
+}
+
+/*-----------------------------------------------------------*/
+
+#contact input:focus {
+    transform: scale(1.05)
+}
+
+#contact input:focus {
+    transform: scale(1.05);
+}
+
+.btn {
+    transition: all ease-in-out .5s
+}
+
+/*-----------------------------------------------------------*/
+
+@media(max-width:768px) {
+    .lightCircle {
+        display: none
+    }
+    .navbar-brand img {
+        margin-top: 7px;
+        max-height: 60px
+    }
+    .navbar-collapse {
+        margin-top: 55px
+    }
+    .navbar-collapse li {
+        text-align: center
+    }
+}
