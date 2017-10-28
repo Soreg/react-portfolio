@@ -52,6 +52,8 @@
   },
   "devDependencies": {
     "node-sass": "^4.5.3",
+    "react-slick": "^0.15.4",
+    "react-slick-2": "git+https://github.com/malliapi/react-slick-2.git",
     "sass-loader": "^6.0.6",
     "webpack": "^3.8.1"
   },

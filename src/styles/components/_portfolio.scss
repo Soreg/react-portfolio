@@ -23,6 +23,7 @@
     transform: skewY(0.7deg);
   }
   .slick-dots, .slick-next, .slick-prev {
+    bottom: 5px;
     padding: 0;
     bottom: 0;
   }

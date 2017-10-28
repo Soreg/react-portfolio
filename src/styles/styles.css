@@ -182,6 +182,7 @@ body {
     background: #bde4a7;
     transform: skewY(0.7deg); }
   #portfolio .slick-dots, #portfolio .slick-next, #portfolio .slick-prev {
+    bottom: 5px;
     padding: 0;
     bottom: 0; }
   #portfolio .slideContainer {
