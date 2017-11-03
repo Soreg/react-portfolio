@@ -10,13 +10,10 @@ const Presentation = () => {
         </div>
         <div className="col-md-10 col-xs-10 col-md-push-1 col-xs-push-1 text-left">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar volutpat mauris, finibus semper leo pharetra sit amet. Nulla facilisis lacus at ex lacinia, ut tincidunt est luctus. Phasellus varius fermentum sapien, mattis lobortis sem pretium ut. Donec non orci odio. Proin laoreet imperdiet odio. Vestibulum scelerisque, elit sit amet.
+            Hello, and welcome to my wonderful word of programming! My name is Soren, and I am passionate web developer. I love to stay up-to-date with new trends, and I always devote some time to 'upgrade' myself. I know a variety of languages, mostly related to front-end development.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque risus ut mollis rhoncus. Mauris id gravida magna. Praesent fermentum blandit tempus. Donec id lacinia risus. Duis ut volutpat felis. Praesent blandit dignissim turpis, et commodo velit sollicitudin sed. Suspendisse diam dui, efficitur vel dictum et, eleifend nec tellus. Maecenas.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate sem est, sed fermentum neque tincidunt sit amet. Pellentesque varius ipsum ut erat laoreet commodo. Phasellus suscipit, augue ac mattis finibus, mauris mauris fringilla quam, sit amet egestas mi est in augue. Phasellus placerat dui a quam vulputate egestas. Aliquam fermentum magna ut augue tempor, placerat faucibus enim imperdiet. Mauris.
+            My programming journey started around 5 years ago, when I got introduced to C# in a class I was taking. I was thrilled from the first day, and I have been ever since! I quickly changed from C# to Html, Css and Javascript, and also started working with PHP and SQL. My current focus is ReactJS!
           </p>
         </div>
        </div>

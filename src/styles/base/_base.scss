@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Questrial');
 
 $bg-img: url('./../img/bg.png');
 $transparent-background: rgba(0,0,0,0.2);
@@ -8,6 +7,7 @@ $primary-button: #428bca;
 $send-button: #3e8e3e;
 $main-color: black;
 $header-font: Oswald, sans-serif;
+$body-font: Questrial;
 
 /*-----------------------------------------------------------*/
 
@@ -22,9 +22,9 @@ html {
 
 body {
     background-image: $bg-img;
-    font-family: sans-serif;
+    font-family: $body-font;
     overflow-x: hidden;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     section {
         margin: 0;
         position: relative;
@@ -83,10 +83,6 @@ body {
     }
     .primaryButton:hover {
       background: darken($primary-button, 20%) !important;
-    }
-
-    p {
-      font-size: 1.6rem;
     }
 
     h1, h2, h3 {
