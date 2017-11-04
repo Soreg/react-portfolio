@@ -7,29 +7,30 @@
     position: relative;
 }
 
-.navbar-brand img {
+.navbar-brand {
+  img {
     max-height: 80px;
+    opacity: .7;
+    transition: all ease-in-out .3s;
+  }
+  img:hover {
+    opacity: .95;
+  }
 }
 
-.socialLink img {
-    max-height: 70px;
-    opacity: .8;
-}
 .socialLink a {
   cursor: default;
   i {
     opacity: .8;
+    color: white;
     font-size: 7rem;
-    color: #e6e6e6;
-    transition: all ease-in-out .2s;
+    transition: all ease-in-out .3s;
   }
   i:hover {
-    opacity: 1;
+    opacity: .95;
     cursor: pointer;
   }
   .fa:hover {
-    color: white;
-    opacity: 1;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);  }
 }
 

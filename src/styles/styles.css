@@ -105,25 +105,24 @@ body {
   position: relative; }
 
 .navbar-brand img {
-  max-height: 80px; }
+  max-height: 80px;
+  opacity: .7;
+  transition: all ease-in-out .3s; }
 
-.socialLink img {
-  max-height: 70px;
-  opacity: .8; }
+.navbar-brand img:hover {
+  opacity: .95; }
 
 .socialLink a {
   cursor: default; }
   .socialLink a i {
     opacity: .8;
+    color: white;
     font-size: 7rem;
-    color: #e6e6e6;
-    transition: all ease-in-out .2s; }
+    transition: all ease-in-out .3s; }
   .socialLink a i:hover {
-    opacity: 1;
+    opacity: .95;
     cursor: pointer; }
   .socialLink a .fa:hover {
-    color: white;
-    opacity: 1;
     text-shadow: 2px 2px 4px black; }
 
 .navbar-default .navbar-toggle:focus,
