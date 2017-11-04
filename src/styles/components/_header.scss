@@ -37,3 +37,26 @@
 .navbar-default .navbar-toggle:hover {
     background: rgba(0, 0, 0, .5);
 }
+
+// mobile
+
+.navbar-default .navbar-toggle {
+  border-color: #c8d2d4;
+  .icon-bar {
+    background-color: #c8d2d4;
+  }
+}
+
+.navbar-default .navbar-toggle:focus {
+  background: none;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #c8d2d4;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand img {
+      max-height: 65px;
+  }
+}
