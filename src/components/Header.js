@@ -19,11 +19,18 @@ const Header = () => {
 
     <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul className="nav navbar-nav navbar-right">
-
-        <li className="socialLink"><a href="https://github.com/Soreg" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a></li>
-        <li className="socialLink"><a href="http://www.codepen.io/TudiKovin/" target="_blank" rel="noopener noreferrer"><i className="fa fa-codepen"></i></a></li>
-        <li className="socialLink"><a href="https://www.twitter.com/SorenWebDev" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter"></i></a></li>
-        <li className="socialLink"><a href="http://www.linkedin.com/in/soreg" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin"></i></a></li>
+          <div className="col-xs-3">
+            <li className="socialLink"><a href="https://github.com/Soreg" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a></li>
+          </div>
+            <div className="col-xs-3">
+              <li className="socialLink"><a href="http://www.codepen.io/TudiKovin/" target="_blank" rel="noopener noreferrer"><i className="fa fa-codepen"></i></a></li>
+            </div>
+            <div className="col-xs-3">
+              <li className="socialLink"><a href="https://www.twitter.com/SorenWebDev" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter"></i></a></li>
+            </div>
+            <div className="col-xs-3">
+              <li className="socialLink"><a href="http://www.linkedin.com/in/soreg" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin"></i></a></li>
+            </div>
       </ul>
     </div>
   </div>
