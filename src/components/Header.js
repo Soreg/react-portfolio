@@ -18,7 +18,8 @@ const Header = () => {
     </div>
 
     <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul className="nav navbar-nav navbar-right">
+      <div className="row push-top">
+        <ul className="nav navbar-nav navbar-right">
           <div className="col-xs-3">
             <li className="socialLink"><a href="https://github.com/Soreg" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a></li>
           </div>
@@ -31,7 +32,8 @@ const Header = () => {
             <div className="col-xs-3">
               <li className="socialLink"><a href="http://www.linkedin.com/in/soreg" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin"></i></a></li>
             </div>
-      </ul>
+        </ul>
+      </div>
     </div>
   </div>
 </nav>

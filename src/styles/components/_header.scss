@@ -5,6 +5,9 @@
     background: #50808e;
     margin: 0;
     position: relative;
+    .push-top {
+      margin-top: 20px;
+    }
 }
 
 .navbar-brand {
@@ -57,6 +60,11 @@
 }
 
 @media (max-width: 768px) {
+  .navbar-default {
+    .push-top {
+      margin-top: 0;
+    }
+  }
   .navbar-brand img {
       max-height: 65px;
   }

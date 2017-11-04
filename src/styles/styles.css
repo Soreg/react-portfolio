@@ -103,6 +103,8 @@ body {
   background: #50808e;
   margin: 0;
   position: relative; }
+  .navbar-default .push-top {
+    margin-top: 20px; }
 
 .navbar-brand img {
   max-height: 80px;
@@ -141,6 +143,8 @@ body {
   border-color: #c8d2d4; }
 
 @media (max-width: 768px) {
+  .navbar-default .push-top {
+    margin-top: 0; }
   .navbar-brand img {
     max-height: 65px; }
   .socialLink a i {
