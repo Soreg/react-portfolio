@@ -24,7 +24,7 @@ export default class Portfolio extends Component {
 
         <div className="container-fluid">
           <div className="row">
-            <div className="col-md-12">
+
               <h2>PORTFOLIO</h2>
               <Slider {...settings}>
                 {this.props.projects.map((project, i) => {
@@ -52,7 +52,7 @@ export default class Portfolio extends Component {
                   );
                 })}
               </Slider>
-            </div>
+
           </div>
         </div>
         <div className="skew bottom"></div>
