@@ -180,6 +180,12 @@ body {
       max-height: 150px;
       max-width: 150px; }
 
+/*-----------------------------------------------------------*/
+@media (max-width: 768px) {
+  #skills .images img {
+    max-height: 100px;
+    max-width: 100px; } }
+
 #portfolio {
   padding-bottom: 30px;
   height: 100%;
