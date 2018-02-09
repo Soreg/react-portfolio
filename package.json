@@ -26,7 +26,6 @@
     "fs-extra": "3.0.1",
     "html-webpack-plugin": "2.29.0",
     "jest": "20.0.4",
-    "node-sass-chokidar": "0.0.3",
     "object-assign": "4.1.1",
     "postcss-flexbugs-fixes": "3.2.0",
     "postcss-loader": "2.0.6",
@@ -52,6 +51,7 @@
   },
   "devDependencies": {
     "node-sass": "^4.5.3",
+    "node-sass-chokidar": "0.0.3",
     "react-slick": "^0.15.4",
     "react-slick-2": "git+https://github.com/malliapi/react-slick-2.git",
     "sass-loader": "^6.0.6",

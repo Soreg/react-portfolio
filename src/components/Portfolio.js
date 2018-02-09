@@ -19,18 +19,16 @@ export default class Portfolio extends Component {
     swipe: true,
   };
     return (
-      <section id="portfolio" className="carousel slide carousel-fade text-center" data-ride="carousel">
+      <section id="portfolio" className="carousel slide carousel-fade" data-ride="carousel">
         <div className="skew top"></div>
 
-        <div className="container-fluid">
-          <div className="row">
 
               <h2>PORTFOLIO</h2>
               <Slider {...settings}>
                 {this.props.projects.map((project, i) => {
                   return (
                     <div key={i} className="slideContainer">
-                      <div className="col-md-6 col-sm-8 col-xs-8 col-md-push-3 col-sm-push-2 col-xs-push-2">
+                      <div>
                         <div className="imageBox">
                           <img className={project.imageStyle} src={project.image} alt=""/>
                         </div>
@@ -43,7 +41,7 @@ export default class Portfolio extends Component {
                           }</h4>
                           <h5 dangerouslySetInnerHTML={{__html: project.description}} />
                         </div>
-                        <div className="col-md-4 col-md-push-4">
+                        <div className="projectLink">
                           <a href={project.link} target="_blank" className="btn btn-lg btn-block primaryButton">To Project</a>
                         </div>
 
@@ -53,8 +51,6 @@ export default class Portfolio extends Component {
                 })}
               </Slider>
 
-          </div>
-        </div>
         <div className="skew bottom"></div>
 
        </section>

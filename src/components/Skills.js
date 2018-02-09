@@ -13,40 +13,38 @@ import ReactLogo from './../img/Skills/reactLogo.png';
 export default class Skills extends React.Component {
   render() {
     return (
-      <section id="skills" className="text-center">
-        <div className="container">
-             <div className="row">
-               <div className="col-md-12">
+      <section id="skills">
+             <div>
+               <div>
                  <h2>PROGRAMMING LANGUAGES</h2>
                </div>
-               <div className="col-md-12 images">
-                 <div className="col-md-3 col-xs-6">
+               <div className="images">
+                 <div>
                    <img src={Html5Logo} alt=""></img>
                  </div>
-                 <div className="col-md-3 col-xs-6">
+                 <div>
                    <img src={Css3Logo} alt=""></img>
                  </div>
-                 <div className="col-md-3 col-xs-6">
+                 <div>
                    <img src={JavascriptLogo} alt=""></img>
                  </div>
-                 <div className="col-md-3 col-xs-6">
+                 <div>
                    <img src={JqueryLogo} alt=""></img>
                  </div>
-                 <div className="col-md-3 col-xs-6">
+                 <div>
                    <img src={CSharpLogo} alt=""></img>
                  </div>
-                 <div className="col-md-3 col-xs-6">
+                 <div>
                    <img src={PhpLogo} alt=""></img>
                  </div>
-                 <div className="col-md-3 col-xs-6">
+                 <div>
                    <img src={SqlLogo} alt=""></img>
                  </div>
-                 <div className="col-md-3 col-xs-6">
+                 <div>
                    <img src={ReactLogo} alt=""></img>
                  </div>
                </div>
              </div>
-          </div>
 
         </section>
     );

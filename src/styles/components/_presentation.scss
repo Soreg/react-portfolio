@@ -1,8 +1,11 @@
 #intro {
+  top: -15px;
+  padding-top: 15px;
   background: #96bdc6;
   position: relative;
   box-shadow: inset 0px 53px 42px -50px rgba(0,0,0,0.75);
   padding-bottom: 50px;
+  text-align: center;
   .row {
     margin-top: 10px;
   }
@@ -13,7 +16,28 @@
     bottom: -15px;
   }
   p {
-    margin-top: 25px;
+    margin: 25px auto 0 auto;
     font-weight: bold;
+    max-width: 1000px;
   }
+
+  @media(max-width:1100px) {
+    p {
+      max-width: 740px;
+    }
+  }
+
+  @media(max-width:780px) {
+    p {
+      max-width: 500px;
+    }
+  }
+
+  @media(max-width:540px) {
+    p {
+      max-width: 300px;
+    }
+  }
+
+
 }

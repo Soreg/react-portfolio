@@ -6,13 +6,13 @@
     margin: 0;
     position: relative;
     .push-top {
-      margin-top: 20px;
+      margin-top: 15px;
     }
 }
 
 .navbar-brand {
   img {
-    max-height: 80px;
+    max-height: 65px;
     opacity: .7;
     transition: all ease-in-out .3s;
   }
@@ -32,6 +32,7 @@
   i:hover {
     opacity: .95;
     cursor: pointer;
+    transform: translate(-2px, -4px);
   }
   .fa:hover {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);  }
@@ -71,6 +72,7 @@
   .socialLink a {
     i {
       font-size: 5.5rem;
+      margin-bottom: 20px;
     }
   }
 }

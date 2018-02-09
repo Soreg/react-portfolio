@@ -1,13 +1,11 @@
 
 #portfolio {
-  padding-bottom: 30px;
+  padding: 10px 0 30px 0;
   height: 100%;
   margin-bottom: 0px;
   background: #bde4a7;
   position: relative;
-  .row {
-    margin-top: 5px;
-  }
+  text-align: center;
   .skew.top  {
     top: -30px;
     height: 40px;
@@ -31,6 +29,8 @@
     padding-bottom: 20px;
     .imageBox {
       filter: drop-shadow(10px 10px 5px rgba(0,0,0, 0.4));
+      max-width: 1000px;
+      margin: 0 auto;
     }
     img {
       max-width: 100%;
@@ -52,7 +52,15 @@
       clip-path: polygon(0 0, 98% 0, 100% 100%, 2% 100%);
     }
     .information {
-      margin: 20px 0 10px 0;
+      max-width: 60%;
+      margin: 20px auto 10px auto;
+    }
+    .projectLink {
+      max-width: 30%;
+      margin: 0 auto;
+      a {
+        font-size: 1em;
+      }
     }
     .name {
       font-weight: bold;
@@ -70,4 +78,24 @@
   a {
     margin: 15px 0;
   }
+
+  @media(max-width:1100px) {
+    .slideContainer .imageBox {
+      max-width: 740px;
+    }
+  }
+
+  @media(max-width:780px) {
+    .slideContainer .imageBox {
+      max-width: 500px;
+    }
+  }
+
+  @media(max-width:540px) {
+    .slideContainer .imageBox {
+      max-width: 300px;
+    }
+  }
+
+
 }

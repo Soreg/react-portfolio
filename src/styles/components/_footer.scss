@@ -1,13 +1,12 @@
 #footer {
-  height: 50px;
-  box-shadow: 0 -15px 20px 0 rgba(0,0,0, 0.4);
+    background: #50808e;
+    height: 50px;
+    box-shadow: 0 -15px 20px 0 rgba(0,0,0, 0.4);
+    text-align: center;
   h6 {
     color: #d4dbdd;
     font-style: normal;
     line-height: 50px;
     margin: 0;
-  }
-  .container-fluid {
-    background: #50808e;
   }
 }
