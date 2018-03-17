@@ -8,6 +8,7 @@ import CSharpLogo from './../img/Skills/cSharpLogo.png';
 import PhpLogo from './../img/Skills/phpLogo.png';
 import SqlLogo from './../img/Skills/sqlLogo.png';
 import ReactLogo from './../img/Skills/reactLogo.png';
+import SassLogo from './../img/Skills/sassLogo.png'
 
 
 export default class Skills extends React.Component {
@@ -32,9 +33,6 @@ export default class Skills extends React.Component {
                    <img src={JqueryLogo} alt=""></img>
                  </div>
                  <div>
-                   <img src={CSharpLogo} alt=""></img>
-                 </div>
-                 <div>
                    <img src={PhpLogo} alt=""></img>
                  </div>
                  <div>
@@ -42,6 +40,9 @@ export default class Skills extends React.Component {
                  </div>
                  <div>
                    <img src={ReactLogo} alt=""></img>
+                 </div>
+                 <div>
+                   <img src={SassLogo} alt=""></img>
                  </div>
                </div>
              </div>

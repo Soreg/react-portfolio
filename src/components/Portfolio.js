@@ -9,12 +9,12 @@ export default class Portfolio extends Component {
     var settings = {
     dots: true,
     infinite: true,
-    speed: 800,
+    speed: 1500,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 6000,
     draggable: true,
     swipe: true,
   };
